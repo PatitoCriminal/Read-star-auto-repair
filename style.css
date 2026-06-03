@@ -1,3 +1,10 @@
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -16,19 +23,40 @@ section {
     text-align: center;
     
 }
-
 ul {
     list-style-type: none;
     padding: 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 li {
     background: white;
-    margin: 10px auto;
-    width: 250px;
-    padding: 15px;
+    margin: 15px auto;
+    width: 300px;
+    padding: 20px;
     border-radius: 10px;
+    font-size: 20px;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+
+     transition: 0.3s;
+
+    min-height: 150px;
+   
 }
+
+li {
+    transition: 0.3s;
+}
+
+li:hover {
+    transform: scale(1.05);
+}
+
 
 button {
     background-color: #8B0000;
@@ -82,4 +110,54 @@ input {
 
     color: white;
     text-align: center;
+}
+
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+li h3 {
+    margin-top: 0;
+}
+
+li p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+
+.why-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.why-card {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+
+    transition: 0.3s;
+}
+
+.why-card:hover {
+    transform: scale(1.05);
 }

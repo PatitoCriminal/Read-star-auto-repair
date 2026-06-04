@@ -256,9 +256,10 @@ li p {
         text-align: center;
     }
 
-    .logo {
-        width: 150px;
-        height: auto;
+      .logo {
+        width: 70px;
+        top: 5px;
+        right: 10px;
     }
 
     nav {

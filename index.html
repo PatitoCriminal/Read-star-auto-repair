@@ -9,10 +9,11 @@
 
 <body>
 
-<header>
+<header id="main-header">
     <h1>Red Star Auto Repair</h1>
     <p>Your Trusted Local Auto Repair Shop</p>
 
+    <img src="autooo.jpg" alt="Logo" class="logo" id="logo">
 <nav>
     <a href="#services">Services</a>
     <a href="#contact">Contact</a>
@@ -94,19 +95,25 @@
 
 
 <script src="script.js"></script>
-
 <section class="appointment" id="appointment">
-    <h2>Book an Appointment</h2>
 
-    <input type="text" id="name" placeholder="Your Name">
-    <br><br>
+    <div class="appointment-card">
 
-    <input type="tel" id="phone" placeholder="Phone Number">
-    <br><br>
+        <h2>Book an Appointment</h2>
 
-    <button onclick="showMessage()">Submit</button>
+        <form>
+            <input type="text" placeholder="Your Name">
+
+            <input type="tel" placeholder="Phone Number">
+            <input type="date">
+            <textarea placeholder="Describe your vehicle issue"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+    </div>
+
 </section>
-
 <br><br>
 <br><br>
 
@@ -115,5 +122,10 @@
 </footer>
 
 </body>
+
+
+<audio id="engineSound">
+    <source src="car sounds valentin.mp4" type="audio/mp4">
+</audio>
 
 </html>

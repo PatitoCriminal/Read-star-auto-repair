@@ -57,3 +57,4 @@ window.addEventListener("scroll", function() {
 
     lastScrollTop = currentScroll;
 });
+

@@ -251,9 +251,7 @@ li p {
     animation: engineStart 0.6s ease;
 }
 
-.engine-animation {
-    animation: engineStart 0.6s ease;
-}
+
 
 /* Ajustes para celulares */
 @media (max-width: 768px) {
@@ -320,6 +318,26 @@ h1 {
     .team-photo {
         width: 95%;
     }
+
+    .appointment-card {
+    width: 90%;
+}
+
+li {
+    width: 90%;
+}
+
+nav a {
+    font-size: 18px;
+}
+
+.hero-text h1 {
+    font-size: 24px;
+}
+
+.hero-text p {
+    font-size: 16px;
+}
 
 }
 
